@@ -37,3 +37,8 @@ double -> casas decimais, mais preciso que o float
 decimal -> casas decimais, mais usado para valores monetários. Ex: 1.80M
 
 Para formatar casas decimais > ToString("0.00")
+
+#TRABALHANDO COM DATAS
+DateTime.Now -> recebe e data e hora atual do seu computador
+DateTime.Now.AddDays(5); -> Adiciona 5 dias da data atual
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm")); -> Formata a data e a hora
