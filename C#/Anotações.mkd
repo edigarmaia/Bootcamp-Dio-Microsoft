@@ -1,0 +1,39 @@
+#Anotações:
+
+#INTRODUÇÃO
+
+dotnet new console -> cria um novo projeto
+dotnet run -> executa o projeto
+
+*.cs -> arquivo do c#
+*.csproj -> arquivo de projeto do c#, comtém metadados
+
+nome de classe começa com letra maiúscula(PascalCase)	
+método, ação que a pessoa pode realizar. Começa com letra maiúscula(PascalCase)
+namespace organiza as classes
+variaveis com letra minúscula, camelCase.
+	*não abreviar
+	*sem caracter especial(exceto "_" underline)
+
+
+Convenções Cases
+camelCase
+PascalCase
+snake_case
+spinal-case
+
+
+#TIPOS DE DADOS
+
+string -> cadeia de caracteres
+char -> um caracter
+bool -> booleano, true ou false -> padrão é false
+int, long -> inteiro, sem casas decimais
+byte -> 0 a 255
+uint -> (unsigned) sem sinal, começa do zero, não representa valor negativo, dobra a capacidade para positivos
+
+float -> casas decimais
+double -> casas decimais, mais preciso que o float
+decimal -> casas decimais, mais usado para valores monetários. Ex: 1.80M
+
+Para formatar casas decimais > ToString("0.00")

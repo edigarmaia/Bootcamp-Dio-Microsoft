@@ -1,0 +1,15 @@
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/bin/Debug/net6.0/Fundamentos
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/bin/Debug/net6.0/Fundamentos.deps.json
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/bin/Debug/net6.0/Fundamentos.runtimeconfig.json
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/bin/Debug/net6.0/Fundamentos.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/bin/Debug/net6.0/ref/Fundamentos.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/bin/Debug/net6.0/Fundamentos.pdb
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.csproj.AssemblyReference.cache
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.AssemblyInfoInputs.cache
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.AssemblyInfo.cs
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.csproj.CoreCompileInputs.cache
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/ref/Fundamentos.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.pdb
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/Fundamentos/obj/Debug/net6.0/Fundamentos.genruntimeconfig.cache
