@@ -1,13 +1,47 @@
 ﻿using Fundamentos.Models;
 
-string a = "15";
-int b = Convert.ToInt32(a);
+
+//Operadores condicionais - if aninhado
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+if(quantidadeCompra == 0){
+    Console.WriteLine("Venda inválida");
+}
+else if(possivelVenda){
+    Console.WriteLine("Venda realizada");
+
+}
+else{
+    Console.WriteLine("Não temos a quantidade solicitada em estoque");
+}
+
+//Operadores condicionais
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 14;
+// bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+// Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+// if(possivelVenda){
+//     Console.WriteLine("Venda realizada");
+
+// }else{
+//     Console.WriteLine("Não temos a quantidade solicitada em estoque");
+// }
 
 
-Console.WriteLine(a);
+// string a = "15";
+// int b = Convert.ToInt32(a);
 
-
-
+// Console.WriteLine(a);
 
 //int a = 5;
 //double b = a;

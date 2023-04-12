@@ -66,4 +66,5 @@ Caso contrário, precisa de conversão
 double a = 5;
 int b = Convert.ToInt32(a);
 
-
+# OPERADORES CONDICIONAIS
+Possibilita mudar o fluxo de execução do seu código, indicando um caminha a percorrer.
