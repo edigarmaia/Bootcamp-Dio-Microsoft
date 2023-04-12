@@ -23,6 +23,8 @@ snake_case
 spinal-case
 
 
+Console.ReadLine(); -> Lê uma linha que o usuário digitar
+
 # TIPOS DE DADOS
 
 string -> cadeia de caracteres

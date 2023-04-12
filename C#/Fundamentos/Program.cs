@@ -1,10 +1,31 @@
 ﻿using Fundamentos.Models;
 
+//Operadores condicionais - switch case
 
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
+
+switch (letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+
+    Console.WriteLine("É vogal!");
+    break;
+
+    default:
+    Console.WriteLine("Não é uma vogal!");
+    break;
+}
+
+
+/*
 //Operadores condicionais - if aninhado
 int quantidadeEmEstoque = 3;
 int quantidadeCompra = 0;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
 Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
 Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
@@ -20,7 +41,24 @@ else if(possivelVenda){
 else{
     Console.WriteLine("Não temos a quantidade solicitada em estoque");
 }
+*/
 
+/*
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
+
+if (letra == "a" ||
+    letra == "e" ||
+    letra == "i" ||
+    letra == "o" ||
+    letra == "u"){
+        Console.WriteLine("Vogal");
+    }
+    else{
+        Console.WriteLine("Não é vogal");
+    }
+    
+*/
 //Operadores condicionais
 // int quantidadeEmEstoque = 10;
 // int quantidadeCompra = 14;
