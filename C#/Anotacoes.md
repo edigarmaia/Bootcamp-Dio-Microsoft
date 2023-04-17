@@ -70,3 +70,13 @@ int b = Convert.ToInt32(a);
 
 # OPERADORES CONDICIONAIS
 Possibilita mudar o fluxo de execução do seu código, indicando um caminha a percorrer.
+
+# OPERADORES LÓGICOS
+# OPERADOR OR (PIPE, ||)
+Verdadeiro de ao menos uma das confições for verdadeira
+
+# OPERADOR AND (E, &&)
+Verdadeiro se as todas as condições são verdadeiras
+
+# OPERADOR NOT (!) 
+Nega a operação (inverte)

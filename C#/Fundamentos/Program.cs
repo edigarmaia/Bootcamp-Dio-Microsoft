@@ -1,7 +1,43 @@
 ﻿using Fundamentos.Models;
+//Operador not
+bool choveu = true;
+bool estaTarde = true;
+
+if(!choveu && estaTarde){
+    Console.WriteLine("Vou pedalar!");
+}
+else{
+    Console.WriteLine("Vou pedalar outro dia!");
+}
+
+
+/*
+//Operador and &&
+bool possuiPresencaMinima = true;
+double media = 6.5;
+if(possuiPresencaMinima && media >= 7.0){
+    Console.WriteLine("Aprovado!");
+}else{
+    Console.WriteLine("Reprovado!");
+}
+*/
+
+/*
+//Operador or ||
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoDoResponsavel = false;
+
+if(ehMaiorDeIdade || possuiAutorizacaoDoResponsavel){
+    Console.WriteLine("Entrada liberada");
+}
+else{
+    Console.WriteLine("Entrada não liberada");
+}
+*/
+
 
 //Operadores condicionais - switch case
-
+/*
 Console.WriteLine("Digite uma letra");
 string letra = Console.ReadLine();
 
@@ -19,7 +55,7 @@ switch (letra){
     Console.WriteLine("Não é uma vogal!");
     break;
 }
-
+*/
 
 /*
 //Operadores condicionais - if aninhado
