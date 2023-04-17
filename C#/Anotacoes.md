@@ -80,3 +80,15 @@ Verdadeiro se as todas as condições são verdadeiras
 
 # OPERADOR NOT (!) 
 Nega a operação (inverte)
+
+# OPERADORES ARTIMÉTICOS E CLASSE MATH
+# Potência
+public void Potencia(int x, int y){
+            double pot = Math.Pow(x, y);
+            Console.WriteLine($"{x}^{y} = {pot}");
+        }
+
+//Definindo 4 casas decimais
+{Math.Round(coseno, 4)};
+
+

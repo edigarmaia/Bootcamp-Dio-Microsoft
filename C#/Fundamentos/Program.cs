@@ -1,4 +1,47 @@
 ﻿using Fundamentos.Models;
+
+
+Calculadora calc = new Calculadora();
+
+calc.RaizQuadrada(9);
+
+/*
+//Incremento e decremento
+int numero = 10;
+
+Console.WriteLine(numero);
+
+Console.WriteLine("Incrementando o 10");
+//numero+=1;
+numero++;
+Console.WriteLine(numero);
+
+Console.WriteLine("\n");
+
+int numeroDecremento = 20;
+Console.WriteLine(numeroDecremento);
+
+Console.WriteLine("Decrementando o 20");
+numeroDecremento--;
+Console.WriteLine(numeroDecremento);
+*/
+
+/*
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+*/
+/*
+calc.Somar(5, 4);
+calc.Subtrair(10,50);
+calc.Multiplicar(15,45);
+calc.Dividir(2,2);
+
+calc.Potencia(3,3);
+*/
+
+/*
+//Operadores aritméticos
 //Operador not
 bool choveu = true;
 bool estaTarde = true;
@@ -10,7 +53,7 @@ else{
     Console.WriteLine("Vou pedalar outro dia!");
 }
 
-
+*/
 /*
 //Operador and &&
 bool possuiPresencaMinima = true;
