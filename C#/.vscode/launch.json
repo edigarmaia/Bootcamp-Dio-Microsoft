@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/Fundamentos/bin/Debug/net6.0/Fundamentos.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Fundamentos",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {

@@ -1,10 +1,87 @@
 ﻿using Fundamentos.Models;
 
 
+//Construindo menu interativo com while
+string opcao;
+bool exibirMenu = true;
+
+while (exibirMenu){
+    Console.Clear();
+    Console.WriteLine("Digite a sua opção: ");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch (opcao){
+        case "1":
+        Console.WriteLine("Cadastro de Cliente");
+        break;
+        case "2":
+        Console.WriteLine("Busca de Cliente");
+        break;
+        case "3":
+        Console.WriteLine("Apagar Cliente");
+        break;
+        case "4":
+        Console.WriteLine("Encerrar");
+        //Environment.Exit(0); //Sair do programa sem executar o que está a baixo
+        exibirMenu = false;
+        break;
+
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
+        
+
+    }
+      Console.WriteLine("Depois do menu");
+
+}
+
+
+/*
+//For
+int numero = 10;
+for(int contador = 0; contador < numero; contador++){
+    Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+}
+*/
+
+/*
+//While
+int numero = 10;
+int contador = 0;
+while(contador <= numero){
+    Console.WriteLine($"{contador+1}º Execução: {numero} X {contador} = {numero * contador}");
+    contador++;
+
+    if(contador == 6){
+        break; //interrompe o fluxo da execução
+    }
+    
+}
+*/
+
+/*
+//Do while
+int soma = 0, numero = 0;
+
+do {
+    Console.WriteLine("Digite um número: (0 para encerrar)");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero;
+}while (numero != 0);
+ Console.WriteLine($"Total dos números digitados é = {soma}");
+*/
+/*
 Calculadora calc = new Calculadora();
 
 calc.RaizQuadrada(9);
-
+*/
 /*
 //Incremento e decremento
 int numero = 10;

@@ -91,4 +91,16 @@ public void Potencia(int x, int y){
 //Definindo 4 casas decimais
 {Math.Round(coseno, 4)};
 
+# ESTRUTURAS DE REPETIÇÃO (LAÇOS)
+for (inicia a variavel; condicão; incrementa a variavel){
+}
 
+variavel de controle
+contador
+while(condicão){
+
+	contador++;
+}
+
+Environment.Exit(0);//Sair do programa
+Console.Clear(); //Limpa a tela
