@@ -104,3 +104,17 @@ while(condicão){
 
 Environment.Exit(0);//Sair do programa
 Console.Clear(); //Limpa a tela
+
+# ARRAY E LISTAS
+Armazena valores do mesmo tipo, com um tamanho fixo
+int [] array = new int[4];
+string [] array = {"jan", "feb"};
+
+int[] arrayInteiros = new int[3];
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+
+for(int i = 0; i < arrayInteiros.Length; i++){
+    Console.WriteLine($"Posição nº {i} - {arrayInteiros[i]}");
+}
