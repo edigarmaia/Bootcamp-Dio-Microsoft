@@ -1,20 +1,58 @@
 ﻿using Fundamentos.Models;
 
+//Listas
+// Class List
+List<string> listaString = new List<string>();
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
 
+
+Console.WriteLine($"Itens na lista {listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Add("RJ");
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na lista {listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na lista {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// Console.WriteLine("Percorrendo a lista com o FOR");
+// for(int contador = 0; contador < listaString.Count; contador++){
+//     Console.WriteLine($"Posição Nº {contador + 1} - {listaString[contador]}");
+// }
+// Console.WriteLine("\nPercorrendo a lista com o FOREACH");
+// int contadorForeach = 0;
+// foreach(string item in listaString){
+//     Console.WriteLine($"Posição Nº {contadorForeach + 1} - {listaString[contadorForeach]}");
+//     contadorForeach++;
+// }
+
+
+
+
+
+
+
+/*
 //Array
 int[] arrayInteiros = new int[3];
 arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
-
+/*
 Console.WriteLine("REDIMENSIONANDO UM ARRAY\n");
 Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);//dobra o tamanho do array
+
+//Copiando de um array para outro
+int[] arrayInteirosDobradoro = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobradoro, arrayInteiros.Length);
 
 Console.WriteLine("Percorrendo o array com o FOR");
 for(int i = 0; i < arrayInteiros.Length; i++){
     Console.WriteLine($"Posição nº {i} - {arrayInteiros[i]}");
 }
-
+*/
 /*
 Console.WriteLine("\nPercorrendo o array com o FOREACH");
 int contadorForeach = 0;
