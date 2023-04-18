@@ -7,18 +7,22 @@ arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
 
+Console.WriteLine("REDIMENSIONANDO UM ARRAY\n");
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);//dobra o tamanho do array
 
 Console.WriteLine("Percorrendo o array com o FOR");
 for(int i = 0; i < arrayInteiros.Length; i++){
     Console.WriteLine($"Posição nº {i} - {arrayInteiros[i]}");
 }
 
+/*
 Console.WriteLine("\nPercorrendo o array com o FOREACH");
 int contadorForeach = 0;
 foreach (int valor in arrayInteiros){
     Console.WriteLine($"Posição nº {contadorForeach} - {valor}");
     contadorForeach++;
 }
+*/
 
 
 /*

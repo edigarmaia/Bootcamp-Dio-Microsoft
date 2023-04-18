@@ -118,3 +118,5 @@ arrayInteiros[2] = 50;
 for(int i = 0; i < arrayInteiros.Length; i++){
     Console.WriteLine($"Posição nº {i} - {arrayInteiros[i]}");
 }
+
+REDIMENSIONANDO UM ARRAY
