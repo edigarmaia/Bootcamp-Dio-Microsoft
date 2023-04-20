@@ -1,0 +1,15 @@
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.csproj.AssemblyReference.cache
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.AssemblyInfoInputs.cache
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.AssemblyInfo.cs
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.csproj.CoreCompileInputs.cache
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/bin/Debug/net6.0/ExemploExplorando
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/bin/Debug/net6.0/ExemploExplorando.deps.json
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/bin/Debug/net6.0/ExemploExplorando.runtimeconfig.json
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/bin/Debug/net6.0/ExemploExplorando.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/bin/Debug/net6.0/ref/ExemploExplorando.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/bin/Debug/net6.0/ExemploExplorando.pdb
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ref/ExemploExplorando.dll
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.pdb
+/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/Debug/net6.0/ExemploExplorando.genruntimeconfig.cache

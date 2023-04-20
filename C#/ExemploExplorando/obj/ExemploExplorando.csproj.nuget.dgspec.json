@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/ExemploExplorando.csproj": {}
+  },
+  "projects": {
+    "/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/ExemploExplorando.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/ExemploExplorando.csproj",
+        "projectName": "ExemploExplorando",
+        "projectPath": "/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/ExemploExplorando.csproj",
+        "packagesPath": "/home/dell/.nuget/packages/",
+        "outputPath": "/home/dell/Documentos/Bootcamp-Dio-Microsoft/C#/ExemploExplorando/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -121,4 +121,3 @@ for(int i = 0; i < arrayInteiros.Length; i++){
 
 REDIMENSIONANDO UM ARRAY
 
-# LISTAS
