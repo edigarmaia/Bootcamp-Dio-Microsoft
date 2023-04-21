@@ -1,1 +1,2 @@
-# VALIDAÇÕES GET E SET
+# BODY EXPRESSIONS
+get => _nome.ToUpper(); //para pequenas validações
