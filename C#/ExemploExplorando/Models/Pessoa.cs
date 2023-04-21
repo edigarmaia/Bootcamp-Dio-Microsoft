@@ -7,7 +7,19 @@ namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
+        private string _nome;//encapsulando a variavel
+        public string Nome 
+        { get{
+            return _nome.ToUpper();
+        }
+          
+          set{
+            if (value == ""){//se o nome for vazio, lança uma exceptio
+                throw new ArgumentException("O nome não pode ser vazio");
+            }
+            _nome = value;
+          }
+          }
         public int Idade { get; set; }
 
         public void Apresentar(){
