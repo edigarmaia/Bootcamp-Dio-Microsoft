@@ -10,7 +10,7 @@ Bloco de codigo que contém uma série de instruções;
 Pode ser reaproveitado em diversos lugares;
 
 
-# Exemplo lista
+# Exemplo lista (coleção)
 public List<Pessoa> Alunos { get; set; }
 # Adcionando alunos na lista
  public void AdicionarAluno(Pessoa aluno){
