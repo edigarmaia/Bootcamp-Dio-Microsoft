@@ -16,3 +16,8 @@ public List<Pessoa> Alunos { get; set; }
  public void AdicionarAluno(Pessoa aluno){
             Alunos.Add(aluno);
         }
+
+# CONSTRUTORES
+Permite que o programador defina valores padrão, limite a instanciação e grave códigos flexíveis e fáceis de ler.
+Todo construtor leva o mesmo nome da sua classe
+Não tem retorno

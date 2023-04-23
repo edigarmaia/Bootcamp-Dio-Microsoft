@@ -7,6 +7,18 @@ namespace ExemploExplorando.Models
 {
     public class Pessoa
     {
+
+        //constructor
+
+        public Pessoa(){
+
+        }
+        public Pessoa(string nome, string sobrenome){
+            Nome = nome;
+            SobreNome = sobrenome;
+        }
+
+
         private string _nome;//encapsulando a variavel
         public string Nome{ 
         get => _nome.ToUpper();
