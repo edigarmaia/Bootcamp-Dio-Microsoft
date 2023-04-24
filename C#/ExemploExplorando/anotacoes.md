@@ -59,3 +59,28 @@ Console.WriteLine(data.ToShortDateString());
 Console.WriteLine(data);
 Console.WriteLine(data.ToString("dd/MM/yyyy hh:mm"));
 Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+
+# EXCEÇÕES - EXCEPTIONS
+Ajudam a lidar com situações excepcionais ou inesperadas que ocorrem quando o programa for executado
+try{
+    tente fazer algo
+}catch(Exception e){
+    fazer um tratamento
+    Se der errado, mostrar o erro
+}
+
+# COLEÇÕES - FILA (QUEUE)
+FIFO - First in, first out
+fila.Enqueue(2);//adciona o numero 2  à fila
+fila.Dequeue(); //remove o primeiro numero que entrou na fila
+
+# COLEÇÕES - PILHA (STACK)
+LIFO - Last in, first out
+
+# COLEÇÕES - DICTIONARY
+Armazena valores unicos sem uma ordem específica
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
