@@ -1,17 +1,68 @@
-## DYNAMICS 365 + POWER PLATAFORM ##
-Visão Geral da Plataforma
+# DYNAMICS 365 + POWER PLATAFORM
+## Visão Geral da Plataforma
 
-Aula 1 - Conceito
-
+## Aula 1 - Conceito
 Solução web,online, nuvem
 Duvidido em módulos
 
 
-Aula 2 - Visão de arquitetura(Azure, Dados e Plataforma Dynamics)
-Aplicção web baseada em serviço de nuvem (Azure) onde o acesso aos dados é através de metadados (camada de dados entre o serviço da ap
+## Aula 2 - Visão de arquitetura(Azure, Dados e Plataforma Dynamics)
+Aplicação web baseada em serviço de nuvem (Azure) onde o acesso aos dados é através de metadados (camada de dados entre o serviço da aplicação e o banco de dados).
+
+Active Directory do Azure - responsável por criar usuário, editar, gerenciar licenças.
+Centro de Administração do Power Plataform
 
  
-Aula 3 - Personalizações OOB X Personalizações de Usuário
+## Aula 3 - Personalizações OOB X Personalizações de Usuário
+Recurso OOB (Out Of Box) ou pensar fora da caixa, são recursos ou funcionalidades disponíveis 100 porcento funcionais imediatamente após a instalação de um software.
+Já vem pronto para uso.
+Alguns recursos OOB nativos:
+
+- Ferramentas de automação de negócios (fluxo de trabalho, ação, fluxo de processos de negócios)
+- Suporte de gerenciamento de dados (importação/exportação)
+- Suporte à integração (serviço Web e APIs SDK)
+
+## Aula 4 - Estrutura xRM - eXtended relationship management - relacionamento extendido
+
+- Trata dos dados, da apresentação do gerenciamento de segurança
+- Garante uma estrutura escalonável para clientes de pequeno e grande porte
+- Modelo de design declarativo
+- Integração síncrona com a Power Plataform e pdroduto da família Office 365.
+
+## Recursos de extensibilidade
+- Formulário e eventos do lado do cliente
+- Faixas de opções e mapa do site
+- Bibliotecas JScript
+- Plug-ins
+- Programação do serviço web
+- Recursos da web
+- Microsoft SQL Server Reporting Services
+- Processos (fluxos de trabalho, caixas de diálogo e ações)
+- Power Apps
+- Power Automate
+
+## Aula 5 - Base comum para ISVs e Parceiros
+Objetivo - entender como funciona a base comum para ISVs e parceiros realizarem desenvolvimento e costumizações.
+ISV - Independent Software Vendor (Fornecedor de software independente).
+
+Design Declarativo onde o foco é dizer o que fazer e não se preocupar com detalhes de como será feito.
+
+## Aula 6 - Desenvolvimento X Personalizações
+Um desenvolvimento, ele é necessário, quando é preciso elaboração de um código ou algoritmo seja em JavaScript através da própria plataforma ou no 
+Visual Studio com a linguagem C# (C-Sharp)
+
+Uma personalização é quando se faz necessário por exemplo criar um campo em uma entidade ou um workflow via processo nativo ou qualquer outro recurso OOB(Out Of Box).
+
+
+
+
+
+
+
+
+
+
+
 
 
 
